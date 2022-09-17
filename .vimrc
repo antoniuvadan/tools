@@ -1,3 +1,4 @@
+syntax on
 set number relativenumber
 set tabstop=4 softtabstop=4 shiftwidth=4 smarttab expandtab
 set smartindent
@@ -9,7 +10,6 @@ set noswapfile
 set incsearch
 set scrolloff=6
 set colorcolumn=80
-set clipboard=unnamed
 set laststatus=2
 set signcolumn=yes
 set updatetime=50
