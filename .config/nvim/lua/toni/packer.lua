@@ -12,8 +12,11 @@ return require('packer').startup(function(use)
 
   use({ 'rose-pine/neovim', as = 'rose-pine' })
 
-  use( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('tpope/vim-fugitive')
+
+  use('nvim-tree/nvim-tree.lua')
+  use('nvim-tree/nvim-web-devicons')
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',

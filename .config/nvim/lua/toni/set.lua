@@ -6,7 +6,8 @@ vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 vim.opt.smarttab = true
 vim.opt.smartindent = true
-vim.opt.hlsearch = false
+vim.opt.autoindent = true
+vim.opt.hlsearch = true
 vim.opt.wrap = false
 vim.opt.hidden = true
 vim.opt.incsearch = true
@@ -18,4 +19,3 @@ vim.opt.updatetime = 50
 vim.opt.clipboard = "unnamed"
 vim.opt.swapfile = false
 
-vim.g.mapleader = " "
